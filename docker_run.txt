@@ -1,1 +1,0 @@
-docker run -d -v /home/7d2d:/server_data -p 26900:26900 didstopia/7dtd-server -e "SEVEN_DAYS_TO_DIE_STARTUP_ARGUMENTS=-configfile=/server_data/serverconfig.xml -logfile /dev/stdout -quit -batchmode -nographics -dedicated"
