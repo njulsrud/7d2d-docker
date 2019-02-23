@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0"?>
 <ServerSettings>
+  <property name="ZombieMove"           value="0" />
+  <property name="ZombieMoveNight"      value="3" />
+  <property name="ZombieFeralMove"      value="3" />
+  <property name="ZombieBMMove"         value="3" />
+  <property name="BloodMoonFrequency"	value="7" />
+  <property name="BloodMoonRange"	value="0" />	
+  <property name="LandClaimCount"	value="1"/>
+  <property name="BlockDamagePlayer"	value="100" />
+  <property name="BlockDamageAI"	value="100" />
+  <property name="BlockDamageAIBM"	value="100" />
+  <property name="XPMultiplier"	        value="100" /> 
   <property name="ServerPort" 				value="26900"/>				<!-- Port you want the server to listen on. -->
   <property name="ServerIsPublic" 			value="true"/>				<!-- Should this server register to master server -->
   <property name="ServerName" 				value="Richard Net"/>		<!-- Whatever you want the name to be. -->
@@ -15,11 +26,9 @@
   <property name="ServerDisabledNetworkProtocols"	value="UNET"/>			<!-- Networking protocols that should not be used. Separated by comma. Possible values: UNET, RakNet, SteamNetworking. Ex: "unet,steamnetworking" -->
 
   <property name="GameWorld" 				value="Navezgane"/>			<!-- Navezgane, Random Gen -->
-  <property name="GameName" 				value="wardrive"/>			<!-- Whatever you want the game name to be THIS CONTROLS THE RANDOM GENERATION SEED -->
-  <property name="GameDifficulty" 			value="2"/>  				<!-- 0 - 5, 0=easiest, 5=hardest -->
+  <property name="GameName" 				value="BobbyB"/>			<!-- Whatever you want the game name to be THIS CONTROLS THE RANDOM GENERATION SEED -->
+  <property name="GameDifficulty" 			value="3"/>  				<!-- 0 - 5, 0=easiest, 5=hardest -->
   <property name="GameMode"					value="GameModeSurvivalMP"/>	<!-- GameModeSurvivalMP, GameModeSurvivalSP (MP has land protection) -->
-
-  <property name="ZombiesRun"				value="0" />				<!-- 0 = default day/night walk/run, 1 = never run, 2 = always run -->
   <property name="BuildCreate"				value="false" />				<!-- cheat mode on/off -->
   <property name="DayNightLength"			value="90" />				<!-- real time minutes per in game day: 60 minutes -->
   <property name="DayLightLength"			value="18" />				<!-- in game hours the sun shines per day: 18 hours day light per day-->
@@ -31,7 +40,7 @@
 
   <property name="ControlPanelEnabled"	 	value="false"/>				<!-- Enable/Disable the control panel -->
   <property name="ControlPanelPort" 		value="8080"/>				<!-- Port of the control panel webpage -->
-  <property name="ControlPanelPassword" 	value="!!theiCP81"/>			<!-- Password to gain entry to the control panel -->
+  <property name="ControlPanelPassword" 	value="changeme"/>			<!-- Password to gain entry to the control panel -->
 
   <property name="TelnetEnabled"	 		value="true"/>				<!-- Enable/Disable the telnet -->
   <property name="TelnetPort" 				value="8081"/>				<!-- Port of the telnet server -->
